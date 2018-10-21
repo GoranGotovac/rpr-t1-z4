@@ -41,7 +41,6 @@ public class Predmet<a> {
             if(a[i] == null && i != a.length - 1) {
                 a[i] = a[i+1];
                 a[i+1] = null;
-                int b= 0;
             }
         }
     }
