@@ -8,7 +8,7 @@ public class Program {
     Student c = new Student ("Bla","Blaaaa", 12345);
     Student d = new Student ("banana", "bananica", 12324);
     a.upisi(b);
-    a.upisi(c);
+
     a.upisi(d);
     System.out.println(b);
     a.ispisi(d);

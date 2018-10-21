@@ -3,6 +3,7 @@ package rpr.etf.unsa.ba;
 public class Student {
     public String ime, prezime;
     public int index;
+    int b = 0;
     public Student(String ime, String prezime, int index) {Postavi(ime,prezime,index);}
     public void Postavi(String ime, String prezime, int index) {
         this.ime = ime;
