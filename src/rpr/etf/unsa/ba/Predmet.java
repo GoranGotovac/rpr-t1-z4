@@ -11,17 +11,18 @@ public class Predmet<a> {
         this.br_predmeta = br_predmeta;
         a = new Student[br_predmeta];
     }
-    public void setBr_predmeta(int a){
-        br_predmeta = a;
-    }
-
     public void setSifra(int a) {
         sifra = a;
     }
     public void setNaziv(String a){
         naziv = a;
     }
-
+    public String getNaziv() {
+        return naziv;
+    }
+    public int getSifra() {
+        return sifra;
+    }
     public  void upisi(Student s) {
         for(int i = 0; i < a.length; i++) {
             if (a[i] == null) {
